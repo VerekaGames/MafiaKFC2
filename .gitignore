@@ -1,0 +1,8 @@
+Unity/Library/
+Unity/Logs/
+Unity/Temp/
+Unity/UserSettings/
+Unity/scene_build.log
+Unity/*.csproj
+Unity/*.sln
+.DS_Store
