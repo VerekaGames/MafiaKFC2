@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Szef oglasza start gry. Zamykaja sie drzwi do willi, a ty sprawdzasz karte: OBYWATEL. Wszyscy powoli rozchodza sie po domu. Co robisz?",
+      "isEnding": false,
+      "choiceAText": "Ide do salonu podsluchiwac.",
+      "choiceANodeId": 2,
+      "choiceBText": "Ide do kuchni zrobic sobie herbate i obserwowac.",
+      "choiceBNodeId": 3
+    },
+    {
+      "id": 2,
+      "text": "W salonie Wera i Ziomek szepcza do siebie bardzo cicho. Kiedy wchodzisz, nagle milkna.",
+      "isEnding": false,
+      "choiceAText": "Ukrywam sie za filarem i podsluchuje.",
+      "choiceANodeId": 4,
+      "choiceBText": "Rzucam zartem i dolaczam do nich.",
+      "choiceBNodeId": 5
+    },
+    {
+      "id": 3,
+      "text": "W kuchni spotykasz Cichego. Nerwowo miesza wrzatek. Wyglada, jakby cos ukrywal.",
+      "isEnding": false,
+      "choiceAText": "Pytam bezposrednio, czy jest w mafii.",
+      "choiceANodeId": 6,
+      "choiceBText": "Proponuje sojusz i wzajemna obrone.",
+      "choiceBNodeId": 7
+    },
+    {
+      "id": 4,
+      "text": "Slyszysz plan: probuja sterowac glosowaniami i zrzucic wine na niewinnych.",
+      "isEnding": false,
+      "choiceAText": "Ujawniam informacje przy wszystkich.",
+      "choiceANodeId": 8,
+      "choiceBText": "Zachowuje to i czekam na lepszy moment.",
+      "choiceBNodeId": 9
+    },
+    {
+      "id": 5,
+      "text": "Wera usmiecha sie sztucznie. Ziomek pyta, po czyjej jestes stronie.",
+      "isEnding": false,
+      "choiceAText": "Idziesz w ostra konfrontacje.",
+      "choiceANodeId": 10,
+      "choiceBText": "Udajesz neutralnosc i testujesz ich reakcje.",
+      "choiceBNodeId": 11
+    },
+    {
+      "id": 6,
+      "text": "Cichy wpada w panike i zaczyna sie platac w zeznaniach.",
+      "isEnding": false,
+      "choiceAText": "Naciskasz dalej i domagasz sie wyjasnien.",
+      "choiceANodeId": 12,
+      "choiceBText": "Zmiekczasz ton i dajesz mu szanse.",
+      "choiceBNodeId": 13
+    },
+    {
+      "id": 7,
+      "text": "Cichy zgadza sie na sojusz, ale chce tajnego znaku przed glosowaniem.",
+      "isEnding": false,
+      "choiceAText": "Przyjmujesz ryzykowny uklad.",
+      "choiceANodeId": 14,
+      "choiceBText": "Odmiawiasz i trzymasz sie swoich zasad.",
+      "choiceBNodeId": 15
+    },
+    {
+      "id": 8,
+      "text": "Rada wierzy twoim argumentom. Grupa zaczyna laczyc fakty i odcina manipulacje.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 9,
+      "text": "Za dlugo zwlekasz. Mafii udaje sie przepchnac swoj plan, a twoje dowody traca sile.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 10,
+      "text": "Konflikt wybucha. Zostajesz uznany za glowny problem i trafiasz pod glosowanie.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 11,
+      "text": "Twoja neutralnosc dziala. Zyskujesz czas i odkrywasz sprzecznosci w ich wersjach.",
+      "isEnding": false,
+      "choiceAText": "Wracasz na rade z konkretnymi dowodami.",
+      "choiceANodeId": 32,
+      "choiceBText": "Przeciagasz gre i ryzykujesz utrate zaufania.",
+      "choiceBNodeId": 33
+    },
+    {
+      "id": 12,
+      "text": "Nacisk daje efekt, ale wywoluje tez panike u calej grupy. Glosowanie staje sie chaosem.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 13,
+      "text": "Cichy przyznaje, ze byl manipulowany. Dostajesz wazny trop na prawdziwa mafie.",
+      "isEnding": false,
+      "choiceAText": "Sprawdzasz trop i stawiasz na dedukcje.",
+      "choiceANodeId": 32,
+      "choiceBText": "Wykorzystujesz trop do prywatnego ukladu.",
+      "choiceBNodeId": 34
+    },
+    {
+      "id": 14,
+      "text": "Sojusz dziala przez chwile, ale reszta graczy uznaje was za podejrzany duet.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 15,
+      "text": "Trzymasz zasady i budujesz wiarygodnosc. Ludzie zaczynaja ci ufac podczas rady.",
+      "isEnding": false,
+      "choiceAText": "Prowadzisz spokojna analize glosow.",
+      "choiceANodeId": 32,
+      "choiceBText": "Przesadzasz z pewnoscia siebie.",
+      "choiceBNodeId": 35
+    },
+    {
+      "id": 32,
+      "text": "ZAKONCZENIE BOHATERA: Udalo ci sie polaczyc fakty. Mafia zostaje przeglosowana, a ekipa wygrywa gre.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 33,
+      "text": "ZAKONCZENIE MECZENNIKA: Chcesz ratowac wszystkich, ale zostajesz poswiecony dla spokoju grupy.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 34,
+      "text": "ZAKONCZENIE ZDRADZONEGO: Uklad zlych ludzi obraca sie przeciwko tobie i tracisz kontrole nad gra.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    },
+    {
+      "id": 35,
+      "text": "ZAKONCZENIE KOZIOL OFIARNY: Zbyt pewny siebie, tracisz poparcie i cala wina spada na ciebie.",
+      "isEnding": true,
+      "choiceAText": "",
+      "choiceANodeId": 0,
+      "choiceBText": "",
+      "choiceBNodeId": 0
+    }
+  ]
+}
