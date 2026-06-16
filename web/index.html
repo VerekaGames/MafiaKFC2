@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mafia Friz x KFC 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="start-screen" class="screen active">
+    <main class="start-card">
+      <h1 class="start-title">
+        <span>Gaśnie światło,</span>
+        <span class="accent">gra rusza</span>
+      </h1>
+      <p class="start-lead">
+        Interaktywny thriller psychologiczny o zaufaniu, zdradzie i prawdzie,
+        która może być śmiertelna.
+      </p>
+      <div class="start-stats">
+        <div class="stat">
+          <strong>4 Postacie</strong>
+          <span>Graj jako jeden z nich</span>
+        </div>
+        <div class="stat">
+          <strong>4 Zakończenia</strong>
+          <span>Twoje wybory mają znaczenie</span>
+        </div>
+        <div class="stat">
+          <strong>15–20 min</strong>
+          <span>Czas jednej rozgrywki</span>
+        </div>
+      </div>
+      <button id="start-btn" class="primary-btn" type="button">
+        <span class="play-icon" aria-hidden="true">▶</span>
+        Rozpocznij grę
+      </button>
+    </main>
+  </div>
+
+  <div id="game-screen" class="screen">
+    <header class="game-header">
+      <h2>Mafia Friz x KFC 2</h2>
+      <button id="restart-btn" class="ghost-btn" type="button" hidden>Zagraj ponownie</button>
+    </header>
+
+    <div class="game-layout">
+      <section class="story-panel">
+        <p id="story-text" class="story-text"></p>
+        <div id="history" class="history"></div>
+        <div id="choices" class="choices"></div>
+      </section>
+
+      <aside class="tree-panel">
+        <h3>Drzewo historii</h3>
+        <div id="story-tree" class="story-tree"></div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
